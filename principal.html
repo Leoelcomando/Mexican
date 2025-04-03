@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bienvenido</title>
+    <title>Buscador de Cultura y Comida</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@
         align-items: center;
         height: 100vh;
         flex-direction: column;
-        background: url('https://amigoenergy.com/wp-content/uploads/2023/06/mexican-cultures-woman-in-facepaint.jpeg') no-repeat center center/cover;
+        background: url('https://t4.ftcdn.net/jpg/08/36/26/81/360_F_836268165_yHQYbJWjfYsiJFDsm7Itqm5W66ZoV4GW.jpg') no-repeat center center/cover;
         color: white;
         text-align: center;
       }
@@ -48,16 +48,11 @@
   </head>
   <body>
     <div class="container">
-      <h2>Buienvenido</h2>
-      <button onclick="redirigir()">Ingresar</button>
+      <h2>Busca una comida o tradición mexicana</h2>
+      <input type="text" id="busqueda" placeholder="Ej. Mole, Mariachi">
+      <button onclick="buscar()">Buscar</button>
+      <div id="resultados"></div>
     </div>
-    <script>
-      function buscar() {
-        alert("Función de búsqueda en desarrollo...");
-      }
-      function redirigir() {
-        window.location.href = 'principal.html';
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
