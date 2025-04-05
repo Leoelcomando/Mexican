@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: url('https://t4.ftcdn.net/jpg/08/36/26/81/360_F_836268165_yHQYbJWjfYsiJFDsm7Itqm5W66ZoV4GW.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+  }
+  .container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  button:hover {
+    background-color: #e64a19;
+  }
+  #resultados {
+    margin-top: 20px;
+  }
