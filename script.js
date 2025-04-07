@@ -4,6 +4,7 @@ const datos = {
     "Carnitas": ["Michoacán", "Guanajuato"],
     "Tamales": ["Veracruz", "Ciudad de México", "Oaxaca"],
     "Pozole": ["Guerrero", "Jalisco", "Sinaloa"],
+    "Espaguetti": ["Italia"],
 };
 
 function buscar() {
